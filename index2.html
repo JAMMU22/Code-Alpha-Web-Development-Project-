@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+	<header>
+            <h2 class="logo">Age Calculater</h2>
+            <nav>
+                <a href="index3.html">Home</a>
+                <a href="#About">About</a>
+                <a href="index3.html">Services</a>
+                <a href="#Contact">Contact</a>
+                <button class="btnLogin-popup">Log-in</button>
+                </nav>
+        </header>
+
+    <div class="background-image"></div>
+
+    <div class="container">
+        <div class="login-form">
+            <h2>Login</h2>
+            <form id="loginForm">
+                <label for="email">Email:</label>
+                <input type="email" id="email" required placeholder="Enter your email">
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" required placeholder="Enter your password">
+
+                <div class="policy">
+                    <label>
+                        <input type="checkbox" required>
+                        I agree to the <a href="#">terms and conditions</a>.
+                    </label>
+                </div>
+
+                <button type="submit">Login</button>
+                <div class="message" id="message"></div>
+            </form>
+        </div>
+    </div>
+
+    <script src="second.js"></script>
+</body>
+
+</html>
